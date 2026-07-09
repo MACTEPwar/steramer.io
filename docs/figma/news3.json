@@ -1,0 +1,3551 @@
+{
+  "metadata": {
+    "exportedAt": "2026-07-09T22:19:25.559Z",
+    "componentName": "News",
+    "totalElements": 232,
+    "nestingDepth": 8,
+    "plugin": "Figma to JSON Exporter"
+  },
+  "designTokens": {
+    "colors": {
+      "color-rgb(255, 255, 255)": "rgb(255, 255, 255)",
+      "color-rgb(0, 0, 0)": "rgb(0, 0, 0)",
+      "color-rgb(249, 249, 249)": "rgb(249, 249, 249)",
+      "color-rgb(217, 217, 217)": "rgb(217, 217, 217)",
+      "color-rgb(30, 30, 30)": "rgb(30, 30, 30)",
+      "color-rgb(228, 228, 228)": "rgb(228, 228, 228)"
+    },
+    "fonts": {
+      "montserrat": {
+        "family": "Montserrat",
+        "sizes": {
+          "size-22": "22px",
+          "size-18": "18px"
+        },
+        "weights": {
+          "weight-500": "500"
+        }
+      },
+      "nunito-sans": {
+        "family": "Nunito Sans",
+        "sizes": {
+          "size-14": "14px"
+        },
+        "weights": {
+          "weight-400": "400"
+        }
+      }
+    },
+    "spacing": {
+      "padding-top-8": "8px",
+      "padding-right-16": "16px",
+      "padding-bottom-16": "16px",
+      "padding-left-16": "16px",
+      "gap-16": "16px",
+      "gap-4": "4px",
+      "gap-8": "8px",
+      "padding-right-8": "8px",
+      "padding-bottom-8": "8px",
+      "padding-left-8": "8px"
+    },
+    "effects": {
+      "shadow-9-0": {
+        "x": 0,
+        "y": 0,
+        "blur": 9,
+        "color": "rgba(0, 0, 0, 0.75)"
+      },
+      "shadow-3-1": {
+        "x": 0,
+        "y": 1,
+        "blur": 3,
+        "color": "rgba(0, 0, 0, 0.3499999940395355)"
+      },
+      "shadow-5-2": {
+        "x": 0,
+        "y": 2,
+        "blur": 5,
+        "color": "rgba(0, 0, 0, 0.3499999940395355)"
+      }
+    }
+  },
+  "structure": {
+    "name": "news",
+    "type": "FRAME",
+    "size": {
+      "w": 1920,
+      "h": 960
+    },
+    "styles": {
+      "bg": "rgb(255, 255, 255)",
+      "layout": {
+        "direction": "row",
+        "gap": 0,
+        "align": {
+          "main": "start",
+          "cross": "start"
+        }
+      }
+    },
+    "children": [
+      {
+        "name": "grid",
+        "type": "GROUP",
+        "size": {
+          "w": 1921,
+          "h": 960
+        },
+        "children": [
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 960,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 960,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 960,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 960,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 960,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 960,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 960,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 960,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 960,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 960,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 960,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 960,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 960,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 960,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 960,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 960,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 960,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 1920,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 1920,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 1920,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 1920,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 1920,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 1920,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 1920,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 1920,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line",
+            "type": "LINE",
+            "size": {
+              "w": 1920,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line-2",
+            "type": "LINE",
+            "size": {
+              "w": 1979,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line-2-1",
+            "type": "LINE",
+            "size": {
+              "w": 2147,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line-2-2",
+            "type": "LINE",
+            "size": {
+              "w": 1358,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line-2-3",
+            "type": "LINE",
+            "size": {
+              "w": 1073,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line-2-4",
+            "type": "LINE",
+            "size": {
+              "w": 1979,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line-2-5",
+            "type": "LINE",
+            "size": {
+              "w": 2147,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line-2-6",
+            "type": "LINE",
+            "size": {
+              "w": 1358,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line-2-7",
+            "type": "LINE",
+            "size": {
+              "w": 1073,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line-2-8",
+            "type": "LINE",
+            "size": {
+              "w": 1979,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line-2-9",
+            "type": "LINE",
+            "size": {
+              "w": 2147,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line-2-10",
+            "type": "LINE",
+            "size": {
+              "w": 1358,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line-2-11",
+            "type": "LINE",
+            "size": {
+              "w": 1073,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line-2-12",
+            "type": "LINE",
+            "size": {
+              "w": 1979,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line-2-13",
+            "type": "LINE",
+            "size": {
+              "w": 2147,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line-2-14",
+            "type": "LINE",
+            "size": {
+              "w": 1358,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line-2-15",
+            "type": "LINE",
+            "size": {
+              "w": 1073,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          },
+          {
+            "name": "line-14",
+            "type": "LINE",
+            "size": {
+              "w": 1921,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(0, 194, 255)"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "mask-group",
+        "type": "GROUP",
+        "size": {
+          "w": 1920,
+          "h": 960
+        },
+        "children": [
+          {
+            "name": "rectangle-138",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 1920,
+              "h": 960
+            },
+            "styles": {
+              "bg": "rgb(0, 0, 0)"
+            }
+          },
+          {
+            "name": "515_m_world_ling_4k_wallpaper_by_newjer53_df456g6-1",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 1708,
+              "h": 960
+            }
+          },
+          {
+            "name": "image-12",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 1706,
+              "h": 960
+            }
+          },
+          {
+            "name": "image-65",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 1920,
+              "h": 1079
+            }
+          },
+          {
+            "name": "rectangle-1035",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 1920,
+              "h": 960
+            },
+            "styles": {
+              "bg": "rgb(0, 0, 0)"
+            }
+          }
+        ]
+      },
+      {
+        "name": "scroll",
+        "type": "GROUP",
+        "size": {
+          "w": 4,
+          "h": 340
+        },
+        "children": [
+          {
+            "name": "rectangle-72",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 4,
+              "h": 340
+            },
+            "styles": {
+              "bg": "rgb(249, 249, 249)",
+              "radius": 2
+            }
+          },
+          {
+            "name": "rectangle-73",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 4,
+              "h": 193
+            },
+            "styles": {
+              "bg": "rgb(249, 249, 249)",
+              "radius": 2
+            }
+          }
+        ]
+      },
+      {
+        "name": "news",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "name": "news",
+        "type": "FRAME",
+        "size": {
+          "w": 330,
+          "h": 470
+        },
+        "styles": {
+          "bg": "rgb(249, 249, 249)",
+          "radius": 5,
+          "shadow": {
+            "x": 0,
+            "y": 0,
+            "blur": 9,
+            "color": "rgba(0, 0, 0, 0.75)"
+          },
+          "layout": {
+            "direction": "column",
+            "gap": 0,
+            "align": {
+              "main": "end",
+              "cross": "start"
+            }
+          }
+        },
+        "children": [
+          {
+            "name": "mask-group",
+            "type": "GROUP",
+            "size": {
+              "w": 330,
+              "h": 310
+            },
+            "children": [
+              {
+                "name": "picture",
+                "type": "RECTANGLE",
+                "size": {
+                  "w": 330,
+                  "h": 310
+                },
+                "styles": {
+                  "bg": "rgb(217, 217, 217)"
+                }
+              },
+              {
+                "name": "image-16",
+                "type": "RECTANGLE",
+                "size": {
+                  "w": 369,
+                  "h": 318
+                }
+              }
+            ]
+          },
+          {
+            "name": "content",
+            "type": "FRAME",
+            "size": {
+              "w": 330,
+              "h": 120
+            },
+            "styles": {
+              "layout": {
+                "direction": "column",
+                "gap": 16,
+                "align": {
+                  "main": "start",
+                  "cross": "start"
+                },
+                "padding": [
+                  8,
+                  16,
+                  16,
+                  16
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "wrapper",
+                "type": "FRAME",
+                "size": {
+                  "w": 298,
+                  "h": 56
+                },
+                "styles": {
+                  "layout": {
+                    "direction": "column",
+                    "gap": 4,
+                    "align": {
+                      "main": "start",
+                      "cross": "start"
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "name": "heading",
+                    "type": "TEXT",
+                    "size": {
+                      "w": 298,
+                      "h": 56
+                    },
+                    "content": "Lorem ipsum dolor sit amet consectetur.",
+                    "styles": {
+                      "bg": "rgb(30, 30, 30)",
+                      "text": {
+                        "family": "Montserrat",
+                        "size": 22,
+                        "weight": "500",
+                        "align": "left"
+                      }
+                    }
+                  },
+                  {
+                    "name": "text",
+                    "type": "TEXT",
+                    "size": {
+                      "w": 298,
+                      "h": 108
+                    },
+                    "content": "Lorem ipsum dolor sit amet consectetur. Id nunc feugiat ac imperdiet sed eget. Id vitae erat aenean mattis non ultrices tincidunt ultricies. Varius diam eget a massa feugiat. Leo nunc feugiat sed non at a imperdiet. Nunc nulla morbi ac nunc imperdiet.",
+                    "styles": {
+                      "bg": "rgb(30, 30, 30)",
+                      "text": {
+                        "family": "Nunito Sans",
+                        "size": 14,
+                        "weight": "400",
+                        "align": "justified"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "tags",
+                "type": "FRAME",
+                "size": {
+                  "w": 150,
+                  "h": 24
+                },
+                "styles": {
+                  "layout": {
+                    "direction": "row",
+                    "gap": 8,
+                    "align": {
+                      "main": "start",
+                      "cross": "start"
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "name": "badge",
+                    "type": "INSTANCE",
+                    "size": {
+                      "w": 0,
+                      "h": 0
+                    }
+                  },
+                  {
+                    "name": "badge",
+                    "type": "INSTANCE",
+                    "size": {
+                      "w": 0,
+                      "h": 0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "divider",
+            "type": "VECTOR",
+            "size": {
+              "w": 330,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(30, 30, 30)"
+              }
+            }
+          },
+          {
+            "name": "data",
+            "type": "FRAME",
+            "size": {
+              "w": 330,
+              "h": 40
+            },
+            "styles": {
+              "layout": {
+                "direction": "row",
+                "gap": 0,
+                "align": {
+                  "main": "start",
+                  "cross": "center"
+                },
+                "padding": [
+                  0,
+                  16,
+                  0,
+                  16
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "views---likes",
+                "type": "FRAME",
+                "size": {
+                  "w": 144,
+                  "h": 24
+                },
+                "styles": {
+                  "layout": {
+                    "direction": "row",
+                    "gap": 16,
+                    "align": {
+                      "main": "start",
+                      "cross": "center"
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "name": "views",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 64,
+                      "h": 24
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "row",
+                        "gap": 8,
+                        "align": {
+                          "main": "start",
+                          "cross": "center"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "eye",
+                        "type": "INSTANCE",
+                        "size": {
+                          "w": 0,
+                          "h": 0
+                        }
+                      },
+                      {
+                        "name": "980",
+                        "type": "TEXT",
+                        "size": {
+                          "w": 32,
+                          "h": 18
+                        },
+                        "content": "980",
+                        "styles": {
+                          "bg": "rgb(30, 30, 30)",
+                          "text": {
+                            "family": "Nunito Sans",
+                            "size": 14,
+                            "weight": "400",
+                            "align": "justified"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "likes",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 64,
+                      "h": 24
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "row",
+                        "gap": 8,
+                        "align": {
+                          "main": "start",
+                          "cross": "center"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "like",
+                        "type": "INSTANCE",
+                        "size": {
+                          "w": 0,
+                          "h": 0
+                        }
+                      },
+                      {
+                        "name": "1-4k",
+                        "type": "TEXT",
+                        "size": {
+                          "w": 32,
+                          "h": 18
+                        },
+                        "content": "1.4k",
+                        "styles": {
+                          "bg": "rgb(30, 30, 30)",
+                          "text": {
+                            "family": "Nunito Sans",
+                            "size": 14,
+                            "weight": "400",
+                            "align": "justified"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "date",
+                "type": "TEXT",
+                "size": {
+                  "w": 154,
+                  "h": 40
+                },
+                "content": "06.12.2023",
+                "styles": {
+                  "bg": "rgb(30, 30, 30)",
+                  "text": {
+                    "family": "Nunito Sans",
+                    "size": 14,
+                    "weight": "400",
+                    "align": "right"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "news",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "name": "news",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "name": "news",
+        "type": "FRAME",
+        "size": {
+          "w": 330,
+          "h": 324
+        },
+        "styles": {
+          "bg": "rgb(249, 249, 249)",
+          "radius": 5,
+          "layout": {
+            "direction": "column",
+            "gap": 0,
+            "align": {
+              "main": "end",
+              "cross": "start"
+            }
+          }
+        },
+        "children": [
+          {
+            "name": "mask-group",
+            "type": "GROUP",
+            "size": {
+              "w": 330,
+              "h": 152
+            },
+            "children": [
+              {
+                "name": "picture",
+                "type": "RECTANGLE",
+                "size": {
+                  "w": 330,
+                  "h": 152
+                },
+                "styles": {
+                  "bg": "rgb(217, 217, 217)"
+                }
+              },
+              {
+                "name": "image-16",
+                "type": "RECTANGLE",
+                "size": {
+                  "w": 330,
+                  "h": 353
+                }
+              }
+            ]
+          },
+          {
+            "name": "content",
+            "type": "FRAME",
+            "size": {
+              "w": 330,
+              "h": 132
+            },
+            "styles": {
+              "layout": {
+                "direction": "column",
+                "gap": 16,
+                "align": {
+                  "main": "start",
+                  "cross": "start"
+                },
+                "padding": [
+                  8,
+                  16,
+                  16,
+                  16
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "wrapper",
+                "type": "FRAME",
+                "size": {
+                  "w": 298,
+                  "h": 68
+                },
+                "styles": {
+                  "layout": {
+                    "direction": "column",
+                    "gap": 4,
+                    "align": {
+                      "main": "start",
+                      "cross": "start"
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "name": "heading",
+                    "type": "TEXT",
+                    "size": {
+                      "w": 298,
+                      "h": 28
+                    },
+                    "content": "Заголовок",
+                    "styles": {
+                      "bg": "rgb(30, 30, 30)",
+                      "text": {
+                        "family": "Montserrat",
+                        "size": 22,
+                        "weight": "500",
+                        "align": "left"
+                      }
+                    }
+                  },
+                  {
+                    "name": "text",
+                    "type": "TEXT",
+                    "size": {
+                      "w": 298,
+                      "h": 36
+                    },
+                    "content": "Lorem ipsum dolor sit amet consectetur. Id nunc feugiat ac imperdiet sed eget.",
+                    "styles": {
+                      "bg": "rgb(30, 30, 30)",
+                      "text": {
+                        "family": "Nunito Sans",
+                        "size": 14,
+                        "weight": "400",
+                        "align": "justified"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "tags",
+                "type": "FRAME",
+                "size": {
+                  "w": 150,
+                  "h": 24
+                },
+                "styles": {
+                  "layout": {
+                    "direction": "row",
+                    "gap": 8,
+                    "align": {
+                      "main": "start",
+                      "cross": "start"
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "name": "badge",
+                    "type": "INSTANCE",
+                    "size": {
+                      "w": 0,
+                      "h": 0
+                    }
+                  },
+                  {
+                    "name": "badge",
+                    "type": "INSTANCE",
+                    "size": {
+                      "w": 0,
+                      "h": 0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "divider",
+            "type": "VECTOR",
+            "size": {
+              "w": 330,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(30, 30, 30)"
+              }
+            }
+          },
+          {
+            "name": "data",
+            "type": "FRAME",
+            "size": {
+              "w": 330,
+              "h": 40
+            },
+            "styles": {
+              "layout": {
+                "direction": "row",
+                "gap": 0,
+                "align": {
+                  "main": "start",
+                  "cross": "center"
+                },
+                "padding": [
+                  0,
+                  16,
+                  0,
+                  16
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "views---likes",
+                "type": "FRAME",
+                "size": {
+                  "w": 144,
+                  "h": 24
+                },
+                "styles": {
+                  "layout": {
+                    "direction": "row",
+                    "gap": 16,
+                    "align": {
+                      "main": "start",
+                      "cross": "center"
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "name": "views",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 64,
+                      "h": 24
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "row",
+                        "gap": 8,
+                        "align": {
+                          "main": "start",
+                          "cross": "center"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "eye",
+                        "type": "INSTANCE",
+                        "size": {
+                          "w": 0,
+                          "h": 0
+                        }
+                      },
+                      {
+                        "name": "980",
+                        "type": "TEXT",
+                        "size": {
+                          "w": 32,
+                          "h": 18
+                        },
+                        "content": "980",
+                        "styles": {
+                          "bg": "rgb(30, 30, 30)",
+                          "text": {
+                            "family": "Nunito Sans",
+                            "size": 14,
+                            "weight": "400",
+                            "align": "justified"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "likes",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 64,
+                      "h": 24
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "row",
+                        "gap": 8,
+                        "align": {
+                          "main": "start",
+                          "cross": "center"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "like",
+                        "type": "INSTANCE",
+                        "size": {
+                          "w": 0,
+                          "h": 0
+                        }
+                      },
+                      {
+                        "name": "1-4k",
+                        "type": "TEXT",
+                        "size": {
+                          "w": 32,
+                          "h": 18
+                        },
+                        "content": "1.4k",
+                        "styles": {
+                          "bg": "rgb(30, 30, 30)",
+                          "text": {
+                            "family": "Nunito Sans",
+                            "size": 14,
+                            "weight": "400",
+                            "align": "justified"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "date",
+                "type": "TEXT",
+                "size": {
+                  "w": 154,
+                  "h": 40
+                },
+                "content": "06.12.2023",
+                "styles": {
+                  "bg": "rgb(30, 30, 30)",
+                  "text": {
+                    "family": "Nunito Sans",
+                    "size": 14,
+                    "weight": "400",
+                    "align": "right"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "news",
+        "type": "FRAME",
+        "size": {
+          "w": 680,
+          "h": 250
+        },
+        "styles": {
+          "bg": "rgb(249, 249, 249)",
+          "radius": 5,
+          "layout": {
+            "direction": "row",
+            "gap": 0,
+            "align": {
+              "main": "start",
+              "cross": "end"
+            }
+          }
+        },
+        "children": [
+          {
+            "name": "mask-group",
+            "type": "GROUP",
+            "size": {
+              "w": 340,
+              "h": 250
+            },
+            "children": [
+              {
+                "name": "picture",
+                "type": "RECTANGLE",
+                "size": {
+                  "w": 340,
+                  "h": 250
+                },
+                "styles": {
+                  "bg": "rgb(217, 217, 217)"
+                }
+              },
+              {
+                "name": "image-16",
+                "type": "RECTANGLE",
+                "size": {
+                  "w": 370,
+                  "h": 250
+                }
+              }
+            ]
+          },
+          {
+            "name": "wrapper",
+            "type": "FRAME",
+            "size": {
+              "w": 340,
+              "h": 250
+            },
+            "styles": {
+              "layout": {
+                "direction": "column",
+                "gap": 0,
+                "align": {
+                  "main": "end",
+                  "cross": "start"
+                }
+              }
+            },
+            "children": [
+              {
+                "name": "content",
+                "type": "FRAME",
+                "size": {
+                  "w": 340,
+                  "h": 204
+                },
+                "styles": {
+                  "layout": {
+                    "direction": "column",
+                    "gap": 16,
+                    "align": {
+                      "main": "start",
+                      "cross": "start"
+                    },
+                    "padding": [
+                      8,
+                      16,
+                      16,
+                      16
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "wrapper",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 308,
+                      "h": 140
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "column",
+                        "gap": 4,
+                        "align": {
+                          "main": "start",
+                          "cross": "start"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "heading",
+                        "type": "TEXT",
+                        "size": {
+                          "w": 308,
+                          "h": 28
+                        },
+                        "content": "Заголовок",
+                        "styles": {
+                          "bg": "rgb(30, 30, 30)",
+                          "text": {
+                            "family": "Montserrat",
+                            "size": 22,
+                            "weight": "500",
+                            "align": "left"
+                          }
+                        }
+                      },
+                      {
+                        "name": "text",
+                        "type": "TEXT",
+                        "size": {
+                          "w": 308,
+                          "h": 108
+                        },
+                        "content": "Lorem ipsum dolor sit amet consectetur. Id nunc feugiat ac imperdiet sed eget. Id vitae erat aenean mattis non ultrices tincidunt ultricies. Varius diam eget a massa feugiat. Leo nunc feugiat sed non at a imperdiet. Nunc nulla morbi ac nunc imperdiet.",
+                        "styles": {
+                          "bg": "rgb(30, 30, 30)",
+                          "text": {
+                            "family": "Nunito Sans",
+                            "size": 14,
+                            "weight": "400",
+                            "align": "justified"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "tags",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 150,
+                      "h": 24
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "row",
+                        "gap": 8,
+                        "align": {
+                          "main": "start",
+                          "cross": "start"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "badge",
+                        "type": "INSTANCE",
+                        "size": {
+                          "w": 0,
+                          "h": 0
+                        }
+                      },
+                      {
+                        "name": "badge",
+                        "type": "INSTANCE",
+                        "size": {
+                          "w": 0,
+                          "h": 0
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "divider",
+                "type": "VECTOR",
+                "size": {
+                  "w": 340,
+                  "h": 0
+                },
+                "styles": {
+                  "border": {
+                    "width": 1,
+                    "color": "rgb(30, 30, 30)"
+                  }
+                }
+              },
+              {
+                "name": "data",
+                "type": "FRAME",
+                "size": {
+                  "w": 340,
+                  "h": 40
+                },
+                "styles": {
+                  "layout": {
+                    "direction": "row",
+                    "gap": 0,
+                    "align": {
+                      "main": "start",
+                      "cross": "center"
+                    },
+                    "padding": [
+                      0,
+                      16,
+                      0,
+                      16
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "views---likes",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 144,
+                      "h": 24
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "row",
+                        "gap": 16,
+                        "align": {
+                          "main": "start",
+                          "cross": "center"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "views",
+                        "type": "FRAME",
+                        "size": {
+                          "w": 64,
+                          "h": 24
+                        },
+                        "styles": {
+                          "layout": {
+                            "direction": "row",
+                            "gap": 8,
+                            "align": {
+                              "main": "start",
+                              "cross": "center"
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "eye",
+                            "type": "INSTANCE",
+                            "size": {
+                              "w": 0,
+                              "h": 0
+                            }
+                          },
+                          {
+                            "name": "980",
+                            "type": "TEXT",
+                            "size": {
+                              "w": 32,
+                              "h": 18
+                            },
+                            "content": "980",
+                            "styles": {
+                              "bg": "rgb(30, 30, 30)",
+                              "text": {
+                                "family": "Nunito Sans",
+                                "size": 14,
+                                "weight": "400",
+                                "align": "justified"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "name": "likes",
+                        "type": "FRAME",
+                        "size": {
+                          "w": 64,
+                          "h": 24
+                        },
+                        "styles": {
+                          "layout": {
+                            "direction": "row",
+                            "gap": 8,
+                            "align": {
+                              "main": "start",
+                              "cross": "center"
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "like",
+                            "type": "INSTANCE",
+                            "size": {
+                              "w": 0,
+                              "h": 0
+                            }
+                          },
+                          {
+                            "name": "1-4k",
+                            "type": "TEXT",
+                            "size": {
+                              "w": 32,
+                              "h": 18
+                            },
+                            "content": "1.4k",
+                            "styles": {
+                              "bg": "rgb(30, 30, 30)",
+                              "text": {
+                                "family": "Nunito Sans",
+                                "size": 14,
+                                "weight": "400",
+                                "align": "justified"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "date",
+                    "type": "TEXT",
+                    "size": {
+                      "w": 164,
+                      "h": 40
+                    },
+                    "content": "06.12.2023",
+                    "styles": {
+                      "bg": "rgb(30, 30, 30)",
+                      "text": {
+                        "family": "Nunito Sans",
+                        "size": 14,
+                        "weight": "400",
+                        "align": "right"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "main-nav",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "name": "frame-36",
+        "type": "FRAME",
+        "size": {
+          "w": 120,
+          "h": 40
+        },
+        "styles": {
+          "bg": "rgb(249, 249, 249)",
+          "radius": 5,
+          "shadow": {
+            "x": 0,
+            "y": 1,
+            "blur": 3,
+            "color": "rgba(0, 0, 0, 0.3499999940395355)"
+          },
+          "layout": {
+            "direction": "row",
+            "gap": 0,
+            "align": {
+              "main": "start",
+              "cross": "start"
+            }
+          }
+        },
+        "children": [
+          {
+            "name": "active",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 40,
+              "h": 40
+            },
+            "styles": {
+              "bg": "rgb(228, 228, 228)"
+            }
+          },
+          {
+            "name": "minus----",
+            "type": "INSTANCE",
+            "size": {
+              "w": 0,
+              "h": 0
+            }
+          },
+          {
+            "name": "eyes-----",
+            "type": "INSTANCE",
+            "size": {
+              "w": 0,
+              "h": 0
+            }
+          },
+          {
+            "name": "like-----",
+            "type": "INSTANCE",
+            "size": {
+              "w": 0,
+              "h": 0
+            }
+          },
+          {
+            "name": "line-43",
+            "type": "VECTOR",
+            "size": {
+              "w": 40,
+              "h": 0
+            },
+            "styles": {
+              "border": {
+                "width": 1,
+                "color": "rgb(191, 191, 191)"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "calendar-three-----",
+        "type": "FRAME",
+        "size": {
+          "w": 40,
+          "h": 40
+        },
+        "styles": {
+          "bg": "rgb(249, 249, 249)",
+          "radius": 5,
+          "shadow": {
+            "x": 0,
+            "y": 2,
+            "blur": 5,
+            "color": "rgba(0, 0, 0, 0.3499999940395355)"
+          },
+          "layout": {
+            "direction": "row",
+            "gap": 0,
+            "align": {
+              "main": "start",
+              "cross": "start"
+            }
+          }
+        },
+        "children": [
+          {
+            "name": "filter-----",
+            "type": "INSTANCE",
+            "size": {
+              "w": 0,
+              "h": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "group-443",
+        "type": "GROUP",
+        "size": {
+          "w": 660,
+          "h": 680
+        },
+        "children": [
+          {
+            "name": "rectangle-1030",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 660,
+              "h": 680
+            }
+          },
+          {
+            "name": "group-442",
+            "type": "GROUP",
+            "size": {
+              "w": 660,
+              "h": 680
+            },
+            "children": [
+              {
+                "name": "news_archive",
+                "type": "FRAME",
+                "size": {
+                  "w": 660,
+                  "h": 100
+                },
+                "styles": {
+                  "bg": "rgb(249, 249, 249)",
+                  "radius": 5,
+                  "shadow": {
+                    "x": 0,
+                    "y": 2,
+                    "blur": 5,
+                    "color": "rgba(0, 0, 0, 0.3499999940395355)"
+                  },
+                  "layout": {
+                    "direction": "row",
+                    "gap": 0,
+                    "align": {
+                      "main": "start",
+                      "cross": "start"
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "name": "image",
+                    "type": "GROUP",
+                    "size": {
+                      "w": 175,
+                      "h": 100
+                    },
+                    "children": [
+                      {
+                        "name": "rectangle-148",
+                        "type": "RECTANGLE",
+                        "size": {
+                          "w": 175,
+                          "h": 100
+                        },
+                        "styles": {
+                          "bg": "rgb(217, 217, 217)"
+                        }
+                      },
+                      {
+                        "name": "image-11",
+                        "type": "RECTANGLE",
+                        "size": {
+                          "w": 178,
+                          "h": 100
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "tag",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 74,
+                      "h": 24
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "row",
+                        "gap": 8,
+                        "align": {
+                          "main": "start",
+                          "cross": "start"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "badge",
+                        "type": "INSTANCE",
+                        "size": {
+                          "w": 0,
+                          "h": 0
+                        }
+                      },
+                      {
+                        "name": "badge",
+                        "type": "INSTANCE",
+                        "size": {
+                          "w": 0,
+                          "h": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "text",
+                    "type": "TEXT",
+                    "size": {
+                      "w": 427,
+                      "h": 24
+                    },
+                    "content": "Lorem ipsum dolor sit amet consectetur.",
+                    "styles": {
+                      "bg": "rgb(30, 30, 30)",
+                      "text": {
+                        "family": "Montserrat",
+                        "size": 18,
+                        "weight": "500",
+                        "align": "left"
+                      }
+                    }
+                  },
+                  {
+                    "name": "text",
+                    "type": "TEXT",
+                    "size": {
+                      "w": 466,
+                      "h": 18
+                    },
+                    "content": "Lorem ipsum dolor sit amet consectetur. Enim ultricies varius iaculis.",
+                    "styles": {
+                      "bg": "rgb(30, 30, 30)",
+                      "text": {
+                        "family": "Nunito Sans",
+                        "size": 14,
+                        "weight": "400",
+                        "align": "left"
+                      }
+                    }
+                  },
+                  {
+                    "name": "divider",
+                    "type": "VECTOR",
+                    "size": {
+                      "w": 485,
+                      "h": 0
+                    },
+                    "styles": {
+                      "border": {
+                        "width": 1,
+                        "color": "rgb(30, 30, 30)"
+                      }
+                    }
+                  },
+                  {
+                    "name": "data",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 485,
+                      "h": 38
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                          "main": "start",
+                          "cross": "center"
+                        },
+                        "padding": [
+                          8,
+                          8,
+                          8,
+                          8
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "views---likes",
+                        "type": "FRAME",
+                        "size": {
+                          "w": 235,
+                          "h": 22
+                        },
+                        "styles": {
+                          "layout": {
+                            "direction": "row",
+                            "gap": 16,
+                            "align": {
+                              "main": "start",
+                              "cross": "center"
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "views",
+                            "type": "FRAME",
+                            "size": {
+                              "w": 64,
+                              "h": 24
+                            },
+                            "styles": {
+                              "layout": {
+                                "direction": "row",
+                                "gap": 8,
+                                "align": {
+                                  "main": "start",
+                                  "cross": "center"
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "eye",
+                                "type": "INSTANCE",
+                                "size": {
+                                  "w": 0,
+                                  "h": 0
+                                }
+                              },
+                              {
+                                "name": "980",
+                                "type": "TEXT",
+                                "size": {
+                                  "w": 32,
+                                  "h": 18
+                                },
+                                "content": "980",
+                                "styles": {
+                                  "bg": "rgb(30, 30, 30)",
+                                  "text": {
+                                    "family": "Nunito Sans",
+                                    "size": 14,
+                                    "weight": "400",
+                                    "align": "justified"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "name": "likes",
+                            "type": "FRAME",
+                            "size": {
+                              "w": 64,
+                              "h": 24
+                            },
+                            "styles": {
+                              "layout": {
+                                "direction": "row",
+                                "gap": 8,
+                                "align": {
+                                  "main": "start",
+                                  "cross": "center"
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "like",
+                                "type": "INSTANCE",
+                                "size": {
+                                  "w": 0,
+                                  "h": 0
+                                }
+                              },
+                              {
+                                "name": "1-4k",
+                                "type": "TEXT",
+                                "size": {
+                                  "w": 32,
+                                  "h": 18
+                                },
+                                "content": "1.4k",
+                                "styles": {
+                                  "bg": "rgb(30, 30, 30)",
+                                  "text": {
+                                    "family": "Nunito Sans",
+                                    "size": 14,
+                                    "weight": "400",
+                                    "align": "justified"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "date",
+                        "type": "TEXT",
+                        "size": {
+                          "w": 235,
+                          "h": 22
+                        },
+                        "content": "06.12.2023",
+                        "styles": {
+                          "bg": "rgb(30, 30, 30)",
+                          "text": {
+                            "family": "Nunito Sans",
+                            "size": 14,
+                            "weight": "400",
+                            "align": "right"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "news_archive",
+                "type": "FRAME",
+                "size": {
+                  "w": 660,
+                  "h": 100
+                },
+                "styles": {
+                  "bg": "rgb(249, 249, 249)",
+                  "radius": 5,
+                  "shadow": {
+                    "x": 0,
+                    "y": 2,
+                    "blur": 5,
+                    "color": "rgba(0, 0, 0, 0.3499999940395355)"
+                  },
+                  "layout": {
+                    "direction": "row",
+                    "gap": 0,
+                    "align": {
+                      "main": "start",
+                      "cross": "start"
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "name": "image",
+                    "type": "GROUP",
+                    "size": {
+                      "w": 175,
+                      "h": 100
+                    },
+                    "children": [
+                      {
+                        "name": "rectangle-148",
+                        "type": "RECTANGLE",
+                        "size": {
+                          "w": 175,
+                          "h": 100
+                        },
+                        "styles": {
+                          "bg": "rgb(217, 217, 217)"
+                        }
+                      },
+                      {
+                        "name": "image-11",
+                        "type": "RECTANGLE",
+                        "size": {
+                          "w": 178,
+                          "h": 100
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "tag",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 74,
+                      "h": 24
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "row",
+                        "gap": 8,
+                        "align": {
+                          "main": "start",
+                          "cross": "start"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "badge",
+                        "type": "INSTANCE",
+                        "size": {
+                          "w": 0,
+                          "h": 0
+                        }
+                      },
+                      {
+                        "name": "badge",
+                        "type": "INSTANCE",
+                        "size": {
+                          "w": 0,
+                          "h": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "text",
+                    "type": "TEXT",
+                    "size": {
+                      "w": 427,
+                      "h": 24
+                    },
+                    "content": "Lorem ipsum dolor sit amet consectetur.",
+                    "styles": {
+                      "bg": "rgb(30, 30, 30)",
+                      "text": {
+                        "family": "Montserrat",
+                        "size": 18,
+                        "weight": "500",
+                        "align": "left"
+                      }
+                    }
+                  },
+                  {
+                    "name": "text",
+                    "type": "TEXT",
+                    "size": {
+                      "w": 466,
+                      "h": 18
+                    },
+                    "content": "Lorem ipsum dolor sit amet consectetur. Enim ultricies varius iaculis.",
+                    "styles": {
+                      "bg": "rgb(30, 30, 30)",
+                      "text": {
+                        "family": "Nunito Sans",
+                        "size": 14,
+                        "weight": "400",
+                        "align": "left"
+                      }
+                    }
+                  },
+                  {
+                    "name": "divider",
+                    "type": "VECTOR",
+                    "size": {
+                      "w": 485,
+                      "h": 0
+                    },
+                    "styles": {
+                      "border": {
+                        "width": 1,
+                        "color": "rgb(30, 30, 30)"
+                      }
+                    }
+                  },
+                  {
+                    "name": "data",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 485,
+                      "h": 38
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                          "main": "start",
+                          "cross": "center"
+                        },
+                        "padding": [
+                          8,
+                          8,
+                          8,
+                          8
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "views---likes",
+                        "type": "FRAME",
+                        "size": {
+                          "w": 235,
+                          "h": 22
+                        },
+                        "styles": {
+                          "layout": {
+                            "direction": "row",
+                            "gap": 16,
+                            "align": {
+                              "main": "start",
+                              "cross": "center"
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "views",
+                            "type": "FRAME",
+                            "size": {
+                              "w": 64,
+                              "h": 24
+                            },
+                            "styles": {
+                              "layout": {
+                                "direction": "row",
+                                "gap": 8,
+                                "align": {
+                                  "main": "start",
+                                  "cross": "center"
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "eye",
+                                "type": "INSTANCE",
+                                "size": {
+                                  "w": 0,
+                                  "h": 0
+                                }
+                              },
+                              {
+                                "name": "980",
+                                "type": "TEXT",
+                                "size": {
+                                  "w": 32,
+                                  "h": 18
+                                },
+                                "content": "980",
+                                "styles": {
+                                  "bg": "rgb(30, 30, 30)",
+                                  "text": {
+                                    "family": "Nunito Sans",
+                                    "size": 14,
+                                    "weight": "400",
+                                    "align": "justified"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "name": "likes",
+                            "type": "FRAME",
+                            "size": {
+                              "w": 64,
+                              "h": 24
+                            },
+                            "styles": {
+                              "layout": {
+                                "direction": "row",
+                                "gap": 8,
+                                "align": {
+                                  "main": "start",
+                                  "cross": "center"
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "like",
+                                "type": "INSTANCE",
+                                "size": {
+                                  "w": 0,
+                                  "h": 0
+                                }
+                              },
+                              {
+                                "name": "1-4k",
+                                "type": "TEXT",
+                                "size": {
+                                  "w": 32,
+                                  "h": 18
+                                },
+                                "content": "1.4k",
+                                "styles": {
+                                  "bg": "rgb(30, 30, 30)",
+                                  "text": {
+                                    "family": "Nunito Sans",
+                                    "size": 14,
+                                    "weight": "400",
+                                    "align": "justified"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "date",
+                        "type": "TEXT",
+                        "size": {
+                          "w": 235,
+                          "h": 22
+                        },
+                        "content": "06.12.2023",
+                        "styles": {
+                          "bg": "rgb(30, 30, 30)",
+                          "text": {
+                            "family": "Nunito Sans",
+                            "size": 14,
+                            "weight": "400",
+                            "align": "right"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "news_archive",
+                "type": "FRAME",
+                "size": {
+                  "w": 660,
+                  "h": 100
+                },
+                "styles": {
+                  "bg": "rgb(249, 249, 249)",
+                  "radius": 5,
+                  "shadow": {
+                    "x": 0,
+                    "y": 2,
+                    "blur": 5,
+                    "color": "rgba(0, 0, 0, 0.3499999940395355)"
+                  },
+                  "layout": {
+                    "direction": "row",
+                    "gap": 0,
+                    "align": {
+                      "main": "start",
+                      "cross": "start"
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "name": "image",
+                    "type": "GROUP",
+                    "size": {
+                      "w": 175,
+                      "h": 100
+                    },
+                    "children": [
+                      {
+                        "name": "rectangle-148",
+                        "type": "RECTANGLE",
+                        "size": {
+                          "w": 175,
+                          "h": 100
+                        },
+                        "styles": {
+                          "bg": "rgb(217, 217, 217)"
+                        }
+                      },
+                      {
+                        "name": "image-11",
+                        "type": "RECTANGLE",
+                        "size": {
+                          "w": 178,
+                          "h": 100
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "tag",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 74,
+                      "h": 24
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "row",
+                        "gap": 8,
+                        "align": {
+                          "main": "start",
+                          "cross": "start"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "badge",
+                        "type": "INSTANCE",
+                        "size": {
+                          "w": 0,
+                          "h": 0
+                        }
+                      },
+                      {
+                        "name": "badge",
+                        "type": "INSTANCE",
+                        "size": {
+                          "w": 0,
+                          "h": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "text",
+                    "type": "TEXT",
+                    "size": {
+                      "w": 427,
+                      "h": 24
+                    },
+                    "content": "Lorem ipsum dolor sit amet consectetur.",
+                    "styles": {
+                      "bg": "rgb(30, 30, 30)",
+                      "text": {
+                        "family": "Montserrat",
+                        "size": 18,
+                        "weight": "500",
+                        "align": "left"
+                      }
+                    }
+                  },
+                  {
+                    "name": "text",
+                    "type": "TEXT",
+                    "size": {
+                      "w": 466,
+                      "h": 18
+                    },
+                    "content": "Lorem ipsum dolor sit amet consectetur. Enim ultricies varius iaculis.",
+                    "styles": {
+                      "bg": "rgb(30, 30, 30)",
+                      "text": {
+                        "family": "Nunito Sans",
+                        "size": 14,
+                        "weight": "400",
+                        "align": "left"
+                      }
+                    }
+                  },
+                  {
+                    "name": "divider",
+                    "type": "VECTOR",
+                    "size": {
+                      "w": 485,
+                      "h": 0
+                    },
+                    "styles": {
+                      "border": {
+                        "width": 1,
+                        "color": "rgb(30, 30, 30)"
+                      }
+                    }
+                  },
+                  {
+                    "name": "data",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 485,
+                      "h": 38
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                          "main": "start",
+                          "cross": "center"
+                        },
+                        "padding": [
+                          8,
+                          8,
+                          8,
+                          8
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "views---likes",
+                        "type": "FRAME",
+                        "size": {
+                          "w": 235,
+                          "h": 22
+                        },
+                        "styles": {
+                          "layout": {
+                            "direction": "row",
+                            "gap": 16,
+                            "align": {
+                              "main": "start",
+                              "cross": "center"
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "views",
+                            "type": "FRAME",
+                            "size": {
+                              "w": 64,
+                              "h": 24
+                            },
+                            "styles": {
+                              "layout": {
+                                "direction": "row",
+                                "gap": 8,
+                                "align": {
+                                  "main": "start",
+                                  "cross": "center"
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "eye",
+                                "type": "INSTANCE",
+                                "size": {
+                                  "w": 0,
+                                  "h": 0
+                                }
+                              },
+                              {
+                                "name": "980",
+                                "type": "TEXT",
+                                "size": {
+                                  "w": 32,
+                                  "h": 18
+                                },
+                                "content": "980",
+                                "styles": {
+                                  "bg": "rgb(30, 30, 30)",
+                                  "text": {
+                                    "family": "Nunito Sans",
+                                    "size": 14,
+                                    "weight": "400",
+                                    "align": "justified"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "name": "likes",
+                            "type": "FRAME",
+                            "size": {
+                              "w": 64,
+                              "h": 24
+                            },
+                            "styles": {
+                              "layout": {
+                                "direction": "row",
+                                "gap": 8,
+                                "align": {
+                                  "main": "start",
+                                  "cross": "center"
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "like",
+                                "type": "INSTANCE",
+                                "size": {
+                                  "w": 0,
+                                  "h": 0
+                                }
+                              },
+                              {
+                                "name": "1-4k",
+                                "type": "TEXT",
+                                "size": {
+                                  "w": 32,
+                                  "h": 18
+                                },
+                                "content": "1.4k",
+                                "styles": {
+                                  "bg": "rgb(30, 30, 30)",
+                                  "text": {
+                                    "family": "Nunito Sans",
+                                    "size": 14,
+                                    "weight": "400",
+                                    "align": "justified"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "date",
+                        "type": "TEXT",
+                        "size": {
+                          "w": 235,
+                          "h": 22
+                        },
+                        "content": "06.12.2023",
+                        "styles": {
+                          "bg": "rgb(30, 30, 30)",
+                          "text": {
+                            "family": "Nunito Sans",
+                            "size": 14,
+                            "weight": "400",
+                            "align": "right"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "news_archive",
+                "type": "FRAME",
+                "size": {
+                  "w": 660,
+                  "h": 100
+                },
+                "styles": {
+                  "bg": "rgb(249, 249, 249)",
+                  "radius": 5,
+                  "shadow": {
+                    "x": 0,
+                    "y": 2,
+                    "blur": 5,
+                    "color": "rgba(0, 0, 0, 0.3499999940395355)"
+                  },
+                  "layout": {
+                    "direction": "row",
+                    "gap": 0,
+                    "align": {
+                      "main": "start",
+                      "cross": "start"
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "name": "image",
+                    "type": "GROUP",
+                    "size": {
+                      "w": 175,
+                      "h": 100
+                    },
+                    "children": [
+                      {
+                        "name": "rectangle-148",
+                        "type": "RECTANGLE",
+                        "size": {
+                          "w": 175,
+                          "h": 100
+                        },
+                        "styles": {
+                          "bg": "rgb(217, 217, 217)"
+                        }
+                      },
+                      {
+                        "name": "image-11",
+                        "type": "RECTANGLE",
+                        "size": {
+                          "w": 178,
+                          "h": 100
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "tag",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 74,
+                      "h": 24
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "row",
+                        "gap": 8,
+                        "align": {
+                          "main": "start",
+                          "cross": "start"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "badge",
+                        "type": "INSTANCE",
+                        "size": {
+                          "w": 0,
+                          "h": 0
+                        }
+                      },
+                      {
+                        "name": "badge",
+                        "type": "INSTANCE",
+                        "size": {
+                          "w": 0,
+                          "h": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "text",
+                    "type": "TEXT",
+                    "size": {
+                      "w": 427,
+                      "h": 24
+                    },
+                    "content": "Lorem ipsum dolor sit amet consectetur.",
+                    "styles": {
+                      "bg": "rgb(30, 30, 30)",
+                      "text": {
+                        "family": "Montserrat",
+                        "size": 18,
+                        "weight": "500",
+                        "align": "left"
+                      }
+                    }
+                  },
+                  {
+                    "name": "text",
+                    "type": "TEXT",
+                    "size": {
+                      "w": 466,
+                      "h": 18
+                    },
+                    "content": "Lorem ipsum dolor sit amet consectetur. Enim ultricies varius iaculis.",
+                    "styles": {
+                      "bg": "rgb(30, 30, 30)",
+                      "text": {
+                        "family": "Nunito Sans",
+                        "size": 14,
+                        "weight": "400",
+                        "align": "left"
+                      }
+                    }
+                  },
+                  {
+                    "name": "divider",
+                    "type": "VECTOR",
+                    "size": {
+                      "w": 485,
+                      "h": 0
+                    },
+                    "styles": {
+                      "border": {
+                        "width": 1,
+                        "color": "rgb(30, 30, 30)"
+                      }
+                    }
+                  },
+                  {
+                    "name": "data",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 485,
+                      "h": 38
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                          "main": "start",
+                          "cross": "center"
+                        },
+                        "padding": [
+                          8,
+                          8,
+                          8,
+                          8
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "views---likes",
+                        "type": "FRAME",
+                        "size": {
+                          "w": 235,
+                          "h": 22
+                        },
+                        "styles": {
+                          "layout": {
+                            "direction": "row",
+                            "gap": 16,
+                            "align": {
+                              "main": "start",
+                              "cross": "center"
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "views",
+                            "type": "FRAME",
+                            "size": {
+                              "w": 64,
+                              "h": 24
+                            },
+                            "styles": {
+                              "layout": {
+                                "direction": "row",
+                                "gap": 8,
+                                "align": {
+                                  "main": "start",
+                                  "cross": "center"
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "eye",
+                                "type": "INSTANCE",
+                                "size": {
+                                  "w": 0,
+                                  "h": 0
+                                }
+                              },
+                              {
+                                "name": "980",
+                                "type": "TEXT",
+                                "size": {
+                                  "w": 32,
+                                  "h": 18
+                                },
+                                "content": "980",
+                                "styles": {
+                                  "bg": "rgb(30, 30, 30)",
+                                  "text": {
+                                    "family": "Nunito Sans",
+                                    "size": 14,
+                                    "weight": "400",
+                                    "align": "justified"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "name": "likes",
+                            "type": "FRAME",
+                            "size": {
+                              "w": 64,
+                              "h": 24
+                            },
+                            "styles": {
+                              "layout": {
+                                "direction": "row",
+                                "gap": 8,
+                                "align": {
+                                  "main": "start",
+                                  "cross": "center"
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "like",
+                                "type": "INSTANCE",
+                                "size": {
+                                  "w": 0,
+                                  "h": 0
+                                }
+                              },
+                              {
+                                "name": "1-4k",
+                                "type": "TEXT",
+                                "size": {
+                                  "w": 32,
+                                  "h": 18
+                                },
+                                "content": "1.4k",
+                                "styles": {
+                                  "bg": "rgb(30, 30, 30)",
+                                  "text": {
+                                    "family": "Nunito Sans",
+                                    "size": 14,
+                                    "weight": "400",
+                                    "align": "justified"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "date",
+                        "type": "TEXT",
+                        "size": {
+                          "w": 235,
+                          "h": 22
+                        },
+                        "content": "06.12.2023",
+                        "styles": {
+                          "bg": "rgb(30, 30, 30)",
+                          "text": {
+                            "family": "Nunito Sans",
+                            "size": 14,
+                            "weight": "400",
+                            "align": "right"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "news_archive",
+                "type": "FRAME",
+                "size": {
+                  "w": 660,
+                  "h": 100
+                },
+                "styles": {
+                  "bg": "rgb(249, 249, 249)",
+                  "radius": 5,
+                  "shadow": {
+                    "x": 0,
+                    "y": 2,
+                    "blur": 5,
+                    "color": "rgba(0, 0, 0, 0.3499999940395355)"
+                  },
+                  "layout": {
+                    "direction": "row",
+                    "gap": 0,
+                    "align": {
+                      "main": "start",
+                      "cross": "start"
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "name": "image",
+                    "type": "GROUP",
+                    "size": {
+                      "w": 175,
+                      "h": 100
+                    },
+                    "children": [
+                      {
+                        "name": "rectangle-148",
+                        "type": "RECTANGLE",
+                        "size": {
+                          "w": 175,
+                          "h": 100
+                        },
+                        "styles": {
+                          "bg": "rgb(217, 217, 217)"
+                        }
+                      },
+                      {
+                        "name": "image-11",
+                        "type": "RECTANGLE",
+                        "size": {
+                          "w": 178,
+                          "h": 100
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "tag",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 74,
+                      "h": 24
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "row",
+                        "gap": 8,
+                        "align": {
+                          "main": "start",
+                          "cross": "start"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "badge",
+                        "type": "INSTANCE",
+                        "size": {
+                          "w": 0,
+                          "h": 0
+                        }
+                      },
+                      {
+                        "name": "badge",
+                        "type": "INSTANCE",
+                        "size": {
+                          "w": 0,
+                          "h": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "text",
+                    "type": "TEXT",
+                    "size": {
+                      "w": 427,
+                      "h": 24
+                    },
+                    "content": "Lorem ipsum dolor sit amet consectetur.",
+                    "styles": {
+                      "bg": "rgb(30, 30, 30)",
+                      "text": {
+                        "family": "Montserrat",
+                        "size": 18,
+                        "weight": "500",
+                        "align": "left"
+                      }
+                    }
+                  },
+                  {
+                    "name": "text",
+                    "type": "TEXT",
+                    "size": {
+                      "w": 466,
+                      "h": 18
+                    },
+                    "content": "Lorem ipsum dolor sit amet consectetur. Enim ultricies varius iaculis.",
+                    "styles": {
+                      "bg": "rgb(30, 30, 30)",
+                      "text": {
+                        "family": "Nunito Sans",
+                        "size": 14,
+                        "weight": "400",
+                        "align": "left"
+                      }
+                    }
+                  },
+                  {
+                    "name": "divider",
+                    "type": "VECTOR",
+                    "size": {
+                      "w": 485,
+                      "h": 0
+                    },
+                    "styles": {
+                      "border": {
+                        "width": 1,
+                        "color": "rgb(30, 30, 30)"
+                      }
+                    }
+                  },
+                  {
+                    "name": "data",
+                    "type": "FRAME",
+                    "size": {
+                      "w": 485,
+                      "h": 38
+                    },
+                    "styles": {
+                      "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                          "main": "start",
+                          "cross": "center"
+                        },
+                        "padding": [
+                          8,
+                          8,
+                          8,
+                          8
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "views---likes",
+                        "type": "FRAME",
+                        "size": {
+                          "w": 235,
+                          "h": 22
+                        },
+                        "styles": {
+                          "layout": {
+                            "direction": "row",
+                            "gap": 16,
+                            "align": {
+                              "main": "start",
+                              "cross": "center"
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "views",
+                            "type": "FRAME",
+                            "size": {
+                              "w": 64,
+                              "h": 24
+                            },
+                            "styles": {
+                              "layout": {
+                                "direction": "row",
+                                "gap": 8,
+                                "align": {
+                                  "main": "start",
+                                  "cross": "center"
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "eye",
+                                "type": "INSTANCE",
+                                "size": {
+                                  "w": 0,
+                                  "h": 0
+                                }
+                              },
+                              {
+                                "name": "980",
+                                "type": "TEXT",
+                                "size": {
+                                  "w": 32,
+                                  "h": 18
+                                },
+                                "content": "980",
+                                "styles": {
+                                  "bg": "rgb(30, 30, 30)",
+                                  "text": {
+                                    "family": "Nunito Sans",
+                                    "size": 14,
+                                    "weight": "400",
+                                    "align": "justified"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "name": "likes",
+                            "type": "FRAME",
+                            "size": {
+                              "w": 64,
+                              "h": 24
+                            },
+                            "styles": {
+                              "layout": {
+                                "direction": "row",
+                                "gap": 8,
+                                "align": {
+                                  "main": "start",
+                                  "cross": "center"
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "like",
+                                "type": "INSTANCE",
+                                "size": {
+                                  "w": 0,
+                                  "h": 0
+                                }
+                              },
+                              {
+                                "name": "1-4k",
+                                "type": "TEXT",
+                                "size": {
+                                  "w": 32,
+                                  "h": 18
+                                },
+                                "content": "1.4k",
+                                "styles": {
+                                  "bg": "rgb(30, 30, 30)",
+                                  "text": {
+                                    "family": "Nunito Sans",
+                                    "size": 14,
+                                    "weight": "400",
+                                    "align": "justified"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "date",
+                        "type": "TEXT",
+                        "size": {
+                          "w": 235,
+                          "h": 22
+                        },
+                        "content": "06.12.2023",
+                        "styles": {
+                          "bg": "rgb(30, 30, 30)",
+                          "text": {
+                            "family": "Nunito Sans",
+                            "size": 14,
+                            "weight": "400",
+                            "align": "right"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "mask-group",
+                "type": "GROUP",
+                "size": {
+                  "w": 660,
+                  "h": 80
+                },
+                "children": [
+                  {
+                    "name": "rectangle-1029",
+                    "type": "RECTANGLE",
+                    "size": {
+                      "w": 660,
+                      "h": 80
+                    },
+                    "styles": {
+                      "bg": "rgb(217, 217, 217)"
+                    }
+                  },
+                  {
+                    "name": "image-63",
+                    "type": "RECTANGLE",
+                    "size": {
+                      "w": 670,
+                      "h": 110
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "border",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      }
+    ]
+  },
+  "summary": {
+    "components": 0,
+    "instances": 41,
+    "frames": 58,
+    "texts": 40,
+    "hasAutoLayout": true,
+    "hasEffects": true
+  }
+}
