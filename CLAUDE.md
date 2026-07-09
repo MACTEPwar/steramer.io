@@ -20,3 +20,33 @@ This repository is pre-implementation: there is no application code yet, no pack
 - `figma.md` — index of Figma frame links grouped by site page (главная, новости, ...), each with its `fileKey`/`node-id` and a checkbox to track whether it's been processed into code.
 - `.mcp.json` — registers the `figma-developer-mcp` MCP server (via `npx figma-developer-mcp`), giving direct read access to the Figma file via `get_figma_data` / `download_figma_images`. The API key is read from the `FIGMA_API_KEY` environment variable (user-level, set outside the repo) — never hardcode the token into `.mcp.json` or any tracked file.
 - The Figma REST API is on a rate-limited starter plan — if `get_figma_data` returns 429, fall back to the JSON files already exported into `docs/figma/` instead of retrying the API.
+
+## Коммиты
+
+Все коммиты в этом репозитории оформляются по Conventional Commits:
+
+```
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+`type` — один из:
+
+- `feat` — новая фича (Features)
+- `fix` — багфиксы (Bug Fixes)
+- `perf` — оптимизация (Performance)
+- `docs` — документация
+- `style` — форматирование (не влияющее на поведение)
+- `refactor` — переработка кода без изменения функционала
+- `test` — только тесты
+- `build` — сборка, конфигурация, зависимости
+- `ci` — скрипты CI/CD
+- `chore` — обслуживание, общее
+- `revert` — откат коммитов
+
+`description` (и `body`, если он есть) пишутся на русском языке.
+
+Перед созданием коммита текст сообщения (`type`, `scope`, `description`, `body`) показывается пользователю и требует его подтверждения или правки — коммит не создаётся молча.
