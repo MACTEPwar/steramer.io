@@ -14,6 +14,15 @@ This repository is pre-implementation: there is no application code yet, no pack
 - Database: MySQL
 - ORM: Prisma
 
+## Repository structure
+
+This repo (`steramer.io`) is the umbrella repository: project docs, Figma design source, and cross-cutting conventions (this file, `.claude/agents/`). Application code lives in two separate repositories, wired in here as git submodules:
+
+- `backend/` → [MACTEPwar/streamer.API](https://github.com/MACTEPwar/streamer.API) — NestJS API
+- `frontend/` → [MACTEPwar/stream.Front](https://github.com/MACTEPwar/stream.Front) — Angular app
+
+Each submodule is its own git repository with its own history and remote — commit and push inside `backend/`/`frontend/` separately, then commit the resulting pointer update in the umbrella repo. After cloning `steramer.io` fresh, run `git submodule update --init --recursive` to pull their content.
+
 ## Figma design source
 
 - `docs/figma/*.json` — JSON exports of Figma frames/components, produced with the "Figma to JSON Exporter" community plugin (run from within Figma via Quick Actions), not the Figma REST API. These are the primary source of truth for UI/layout/styling before corresponding code exists. Current files: `tournament1.json`, `tournament2.json`, `main1.json`, `main2.json`, `news1.json`, `news2.json`, `news3.json`, `news4_detail_modal.json`.

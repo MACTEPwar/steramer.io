@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/MACTEPwar/streamer.API.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/MACTEPwar/stream.Front.git
