@@ -14,7 +14,7 @@ Development tasks are derived from the JSON mockups, not written from scratch. F
 1. Read the mockup JSON (`docs/figma/*.json`, indexed in `figma.md`) — screens, components, states, and any text/flow implied by the layout (e.g. a "detail modal" frame implies an open/close flow and the data it must display).
 2. Analyze it as a spec: what screens/components does it imply, what data does each need, what interactions/flows follow from it, what's ambiguous or missing.
 3. Turn that analysis into concrete tasks per role (frontend implements the screen, backend exposes the data/endpoints it needs, qa defines acceptance criteria for it, devops only if the mockup implies new infra). Reference the source mockup file/frame in each task so implementers can trace back to it.
-4. File the tasks as GitHub issues (see below) and mark the corresponding checkbox in `figma.md` once its tasks exist.
+4. File the tasks as GitHub issues (see below), add each to the **[steramer.io — Разработка](https://github.com/users/MACTEPwar/projects/3)** Projects board, and set its `Статус` field to `Бэклог` or `К выполнению`. Mark the corresponding checkbox in `figma.md` once its tasks exist.
 
 If a ТЗ document also exists, treat it as complementary context (business rules, non-UI requirements) — the mockups remain the primary source for *what to build on screen*.
 
