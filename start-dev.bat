@@ -16,6 +16,6 @@ start "steramer.io - frontend" cmd /k "cd /d "%ROOT%frontend" && npm start"
 
 echo.
 echo Backend:  http://localhost:3000  (Swagger: http://localhost:3000/api/docs)
-echo Frontend: http://localhost:4210
+echo Frontend: http://localhost:4200
 
 endlocal
