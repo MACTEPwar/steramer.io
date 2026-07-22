@@ -23,3 +23,7 @@
 - [ ] [Компонент](https://www.figma.com/design/EJw6wakaq70XQHUqbWzSnb/%D0%A1%D0%B0%D0%B9%D1%82?node-id=481-2169) — `node-id: 481:2169` — **не прочитано, rate limit 429**
 - [ ] [Компонент](https://www.figma.com/design/EJw6wakaq70XQHUqbWzSnb/%D0%A1%D0%B0%D0%B9%D1%82?node-id=468-3159) — `node-id: 468:3159` — **не прочитано, rate limit 429**
 - [ ] [Компонент](https://www.figma.com/design/EJw6wakaq70XQHUqbWzSnb/%D0%A1%D0%B0%D0%B9%D1%82?node-id=260-416) — `node-id: 260:416` — **не прочитано, rate limit 429**
+
+### Модалки регистрации/входа
+
+- [x] Registration/Login — `docs/figma/registration-structure.json` (получен напрямую от пользователя, не через MCP/API — node-id/ссылка неизвестны). Модалка 1140×640 (картинка 712px + форма 428px, фон формы `rgb(249,249,249)`), заголовок Montserrat 700 28px, текст Nunito Sans 600 16px, ссылки `rgb(0,51,153)`. Реализовано в stream.Front#58/#59/#60 (`LoginModal`/`RegisterModal`/`AuthModalShell`/`TextField`).

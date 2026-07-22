@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "exportedAt": "2026-07-22T00:11:55.676Z",
+    "componentName": "Registration",
+    "totalElements": 78,
+    "nestingDepth": 4,
+    "plugin": "Figma to JSON Exporter"
+  },
+  "designTokens": {
+    "colors": {
+      "color-rgb(255, 255, 255)": "rgb(255, 255, 255)",
+      "color-rgb(0, 0, 0)": "rgb(0, 0, 0)",
+      "color-rgb(221, 221, 221)": "rgb(221, 221, 221)",
+      "color-rgb(236, 32, 112)": "rgb(236, 32, 112)",
+      "color-rgb(249, 249, 249)": "rgb(249, 249, 249)",
+      "color-rgb(30, 30, 30)": "rgb(30, 30, 30)",
+      "color-rgb(0, 51, 153)": "rgb(0, 51, 153)"
+    },
+    "fonts": {
+      "averia-libre": {
+        "family": "Averia Libre",
+        "sizes": {
+          "size-48": "48px"
+        },
+        "weights": {
+          "weight-400": "400"
+        }
+      },
+      "nunito-sans": {
+        "family": "Nunito Sans",
+        "sizes": {
+          "size-16": "16px"
+        },
+        "weights": {
+          "weight-600": "600"
+        }
+      },
+      "montserrat": {
+        "family": "Montserrat",
+        "sizes": {
+          "size-28": "28px"
+        },
+        "weights": {
+          "weight-700": "700"
+        }
+      }
+    },
+    "spacing": {
+      "gap-8": "8px"
+    },
+    "effects": {
+      "shadow-4-4": {
+        "x": 0,
+        "y": 4,
+        "blur": 4,
+        "color": "rgba(0, 0, 0, 0.25)"
+      }
+    }
+  },
+  "structure": {
+    "name": "registration",
+    "type": "FRAME",
+    "size": {
+      "w": 1920,
+      "h": 960
+    },
+    "styles": {
+      "bg": "rgb(255, 255, 255)",
+      "layout": {
+        "direction": "row",
+        "gap": 0,
+        "align": {
+          "main": "start",
+          "cross": "start"
+        }
+      }
+    },
+    "children": [
+      {
+        "name": "image-70",
+        "type": "RECTANGLE",
+        "size": {
+          "w": 1920,
+          "h": 960
+        }
+      },
+      {
+        "name": "tan",
+        "type": "RECTANGLE",
+        "size": {
+          "w": 1920,
+          "h": 960
+        },
+        "styles": {
+          "bg": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "name": "grid",
+        "type": "GROUP",
+        "size": {
+          "w": 1921,
+          "h": 960
+        },
+        "children": []
+      },
+      {
+        "name": "bg_img",
+        "type": "GROUP",
+        "size": {
+          "w": 1530,
+          "h": 960
+        },
+        "children": [
+          {
+            "name": "rectangle-63",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 1530,
+              "h": 960
+            },
+            "styles": {
+              "border": {
+                "width": 2,
+                "color": "rgb(0, 0, 0)"
+              }
+            }
+          },
+          {
+            "name": "-----------",
+            "type": "TEXT",
+            "size": {
+              "w": 1530,
+              "h": 960
+            },
+            "content": "изображение",
+            "styles": {
+              "bg": "rgb(0, 0, 0)",
+              "text": {
+                "family": "Averia Libre",
+                "size": 48,
+                "weight": "400",
+                "align": "center"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "mask-group",
+        "type": "GROUP",
+        "size": {
+          "w": 712,
+          "h": 640
+        },
+        "children": [
+          {
+            "name": "rectangle-912",
+            "type": "VECTOR",
+            "size": {
+              "w": 712,
+              "h": 640
+            },
+            "styles": {
+              "bg": "rgb(221, 221, 221)"
+            }
+          },
+          {
+            "name": "image-73",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 1138,
+              "h": 640
+            },
+            "styles": {
+              "shadow": {
+                "x": 0,
+                "y": 4,
+                "blur": 4,
+                "color": "rgba(0, 0, 0, 0.25)"
+              }
+            }
+          },
+          {
+            "name": "rectangle-1078",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 776,
+              "h": 679
+            },
+            "styles": {
+              "bg": "rgb(236, 32, 112)"
+            }
+          }
+        ]
+      },
+      {
+        "name": "rectangle-920",
+        "type": "VECTOR",
+        "size": {
+          "w": 428,
+          "h": 640
+        },
+        "styles": {
+          "bg": "rgb(249, 249, 249)"
+        }
+      },
+      {
+        "name": "facebook_btn",
+        "type": "INSTANCE",
+        "size": { "w": 0, "h": 0 }
+      },
+      {
+        "name": "google_btn",
+        "type": "INSTANCE",
+        "size": { "w": 0, "h": 0 }
+      },
+      {
+        "name": "social_reg_title",
+        "type": "GROUP",
+        "size": {
+          "w": 380,
+          "h": 24
+        },
+        "children": [
+          {
+            "name": "line-51",
+            "type": "VECTOR",
+            "size": { "w": 84, "h": 0 },
+            "styles": { "border": { "width": 1, "color": "rgb(30, 30, 30)" } }
+          },
+          {
+            "name": "line-52",
+            "type": "VECTOR",
+            "size": { "w": 84, "h": 0 },
+            "styles": { "border": { "width": 1, "color": "rgb(30, 30, 30)" } }
+          },
+          {
+            "name": "---------------------",
+            "type": "TEXT",
+            "size": { "w": 196, "h": 24 },
+            "content": "регистрация с помощью",
+            "styles": {
+              "bg": "rgb(30, 30, 30)",
+              "text": { "family": "Nunito Sans", "size": 16, "weight": "600", "align": "left" }
+            }
+          }
+        ]
+      },
+      {
+        "name": "close_btn",
+        "type": "FRAME",
+        "size": { "w": 24, "h": 24 }
+      },
+      {
+        "name": "button",
+        "type": "INSTANCE",
+        "size": { "w": 0, "h": 0 }
+      },
+      {
+        "name": "password",
+        "type": "INSTANCE",
+        "size": { "w": 0, "h": 0 }
+      },
+      {
+        "name": "password",
+        "type": "INSTANCE",
+        "size": { "w": 0, "h": 0 }
+      },
+      {
+        "name": "login",
+        "type": "INSTANCE",
+        "size": { "w": 0, "h": 0 }
+      },
+      {
+        "name": "registration",
+        "type": "FRAME",
+        "size": { "w": 380, "h": 24 },
+        "styles": {
+          "layout": { "direction": "row", "gap": 8, "align": { "main": "start", "cross": "center" } }
+        },
+        "children": [
+          {
+            "name": "text",
+            "type": "TEXT",
+            "size": { "w": 332, "h": 24 },
+            "content": "Уже есть аккаунт?",
+            "styles": {
+              "bg": "rgb(30, 30, 30)",
+              "text": { "family": "Nunito Sans", "size": 16, "weight": "600", "align": "left" }
+            }
+          },
+          {
+            "name": "link",
+            "type": "TEXT",
+            "size": { "w": 40, "h": 24 },
+            "content": "Вход",
+            "styles": {
+              "bg": "rgb(0, 51, 153)",
+              "text": { "family": "Nunito Sans", "size": 16, "weight": "600", "align": "left" }
+            }
+          }
+        ]
+      },
+      {
+        "name": "title",
+        "type": "TEXT",
+        "size": { "w": 380, "h": 36 },
+        "content": "Регистрация",
+        "styles": {
+          "bg": "rgb(30, 30, 30)",
+          "text": { "family": "Montserrat", "size": 28, "weight": "700", "align": "left" }
+        }
+      }
+    ]
+  },
+  "summary": {
+    "components": 0,
+    "instances": 6,
+    "frames": 3,
+    "texts": 5,
+    "hasAutoLayout": true,
+    "hasEffects": true
+  }
+}
