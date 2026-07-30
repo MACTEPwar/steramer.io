@@ -13,7 +13,7 @@
 
 ### Страница "новости"
 
-- [ ] [News (вариант 1)](https://www.figma.com/design/EJw6wakaq70XQHUqbWzSnb/%D0%A1%D0%B0%D0%B9%D1%82?node-id=491-3585) — `node-id: 491:3585` — сетка карточек новостей + панель "News_archive" (архив) справа
+- [x] [News (вариант 1)](https://www.figma.com/design/EJw6wakaq70XQHUqbWzSnb/%D0%A1%D0%B0%D0%B9%D1%82?node-id=491-3585) — `node-id: 491:3585` — сетка карточек новостей + панель "News_archive" (архив) справа. Реализовано в stream.Front#111 (`docs/figma/news1.json`) — сетка `NewsCard`, панель `NewsArchiveItem` + `NewsFilterSidebar` вместо фильтров варианта 2, фон страницы — не белый как во фрейме, а глобальный тёмный градиент (по прямому запросу пользователя, картинка на фон добавится отдельной задачей).
 - [ ] [News (вариант 2, с фильтрами)](https://www.figma.com/design/EJw6wakaq70XQHUqbWzSnb/%D0%A1%D0%B0%D0%B9%D1%82?node-id=441-1896) — `node-id: 441:1896` — та же сетка карточек, но справа открыта панель "Filters" (Calendar + Tags) вместо архива
 - [ ] [News (вариант 3, тёмный фон)](https://www.figma.com/design/EJw6wakaq70XQHUqbWzSnb/%D0%A1%D0%B0%D0%B9%D1%82?node-id=491-3167) — `node-id: 491:3167` — та же сетка карточек, фон чёрный/блёрный вместо обычного
 - [ ] [News_modal](https://www.figma.com/design/EJw6wakaq70XQHUqbWzSnb/%D0%A1%D0%B0%D0%B9%D1%82?node-id=565-5659) — `node-id: 565:5659` — модалка открытой новости (фото, заголовок, тег, текст, галерея миниатюр)
