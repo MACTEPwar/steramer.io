@@ -30,11 +30,20 @@ Each submodule is its own git repository with its own history and remote — com
 - `.mcp.json` — registers the `figma-developer-mcp` MCP server (via `npx figma-developer-mcp`), giving direct read access to the Figma file via `get_figma_data` / `download_figma_images`. The API key is read from the `FIGMA_API_KEY` environment variable (user-level, set outside the repo) — never hardcode the token into `.mcp.json` or any tracked file.
 - The Figma REST API is on a rate-limited starter plan — if `get_figma_data` returns 429, fall back to the JSON files already exported into `docs/figma/` instead of retrying the API.
 
-## Available skills
+## Spec-driven development (spec-kit)
 
-`.claude/skills/` in this repo:
+Проект использует [github/spec-kit](https://github.com/github/spec-kit) (CLI `specify`, установлен через `uv tool install specify-cli`; интеграция `claude`). Артефакты: `.specify/` (шаблоны, скрипты, память) и `specs/` (спеки по фичам). Скиллы — `.claude/skills/speckit-*`.
 
-- `ccpm` (community, [automazeio/ccpm](https://github.com/automazeio/ccpm), synced manually — not auto-updating) — spec-driven project management skill. **Scope limited in this repo**: its own PRD/Epic/Sync/Execute/Track phases and local file conventions (`.claude/prds/`, `.claude/epics/`) are **not** the task tracker here — that's the GitHub Projects board (see "Статусы задач и ответственные" below). Use ccpm only as reference for phrasing (PRD-style brainstorming, acceptance-criteria structure), not as the actual workflow engine — don't let it redirect task creation/tracking into its own file structure.
+**Разделение зон ответственности — жёсткое, не по вкусу агента:**
+
+- **spec-kit владеет «что и почему»** — конституция проекта, спеки фич, планы реализации, чек-листы. Это источник правды по требованиям и архитектурным решениям.
+- **GitHub Projects владеет «кто и когда»** — трекинг, роли, статусы, хендофф между ролями (см. "Статусы задач и ответственные" ниже). Доска остаётся единственным трекером.
+
+Мост между ними — скилл `speckit-taskstoissues`: задачи, сгенерированные из спеки (`/speckit-tasks`), превращаются в GitHub issues и дальше живут по обычным правилам доски (лейбл роли, статус, комментарии, подтверждение пользователя перед стартом). Не веди трекинг внутри `tasks.md` параллельно доске — после переноса в issues доска главнее.
+
+Порядок для новой фичи: `/speckit-constitution` (один раз на проект) → `/speckit-specify` → `/speckit-clarify` (если есть неясности) → `/speckit-plan` → `/speckit-tasks` → `speckit-taskstoissues` → дальше обычный цикл доски. `/speckit-implement` использовать осознанно: он выполняет задачи пачкой, что конфликтует с правилом подтверждения пользователем перед стартом каждой задачи — по умолчанию реализацию ведём через доску, а не через него.
+
+Для уже реализованного кода спеки пишутся ретроспективно по мере касания (решение пользователя: описывать ключевое, а не весь проект разом). Сырьё для этого — `PROJECT_MAP.md` в сабмодулях, комментарии в коде и закрытые issues.
 
 ## Постановка задач
 
